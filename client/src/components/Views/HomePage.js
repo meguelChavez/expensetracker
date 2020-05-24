@@ -22,6 +22,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import NavBar from "../NavBar/NavBar";
 import LogIn from "../LogIn/LogIn";
+import ScanReceipts from './ScanReceipts'
+
 
 const HomePage = props => {
   const handleSignInClick = () => {
@@ -47,7 +49,9 @@ const HomePage = props => {
       {/* <NavBar /> */}
       <Container fluid>
         <div className="jumbotron">
-          <h1>Home Page</h1>
+            <h1>Home Page</h1>
+            <ScanReceipts/>
+
           {/* <button onClick={handleSignInClick}>Twitter2</button>
           <button onClick={handleLogoutClick}>Logout</button> */}
         </div>
